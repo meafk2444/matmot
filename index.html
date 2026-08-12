@@ -6,12 +6,12 @@
 <title>Matmot</title>
 <style>
   :root{
-    --bg1:#2b1055;
-    --bg2:#7597de;
-    --pink:#ff6fb5;
-    --yellow:#ffd23f;
-    --cyan:#3ee6c4;
-    --white:#fdfaf3;
+    --bg1:#0e3d1f;
+    --bg2:#3fa34d;
+    --gold:#ffd23f;
+    --yellow:#ffe066;
+    --lime:#8be04f;
+    --white:#fffce8;
   }
 
   *{ box-sizing:border-box; }
@@ -41,7 +41,7 @@
     transform: translateX(-50%);
     text-align:center;
     color:var(--white);
-    text-shadow: 0 0 12px var(--pink), 0 0 24px rgba(255,111,181,0.5);
+    text-shadow: 0 0 12px var(--gold), 0 0 24px rgba(139,224,79,0.55);
     z-index:5;
     pointer-events:none;
   }
@@ -66,8 +66,8 @@
     animation: drift 9s ease-in-out infinite alternate;
     z-index:0;
   }
-  .light.l1{ background:var(--pink); top:-10%; left:-10%; }
-  .light.l2{ background:var(--cyan); bottom:-15%; right:-10%; animation-delay:2s; }
+  .light.l1{ background:var(--gold); top:-10%; left:-10%; }
+  .light.l2{ background:var(--lime); bottom:-15%; right:-10%; animation-delay:2s; }
   .light.l3{ background:var(--yellow); top:20%; right:20%; animation-delay:4s; }
 
   @keyframes drift{
@@ -141,7 +141,7 @@
     left:50%;
     transform: translateX(-50%) scale(0);
     background: var(--white);
-    color:#2b1055;
+    color:#0e3d1f;
     font-weight:bold;
     padding:8px 14px;
     border-radius:16px;
@@ -271,7 +271,7 @@
   </div>
 
   <div id="hint">👉 clique sur Matmot !</div>
-  <div id="footer-credit">Personnage original by Matmot 🎨</div>
+  <div id="footer-credit">Personnage original de Matmot :)</div>
 </div>
 
 <div id="flash"></div>
@@ -311,7 +311,7 @@ const emojiSets = [
   ["💛","🟡"]
 ];
 
-const confettiColors = ["#ff6fb5","#ffd23f","#3ee6c4","#7597de","#fdfaf3","#ff8a3d"];
+const confettiColors = ["#ffd23f","#ffe066","#8be04f","#3fa34d","#fffce8","#c6f24e"];
 
 function showBubble(text){
   bubble.textContent = text;
