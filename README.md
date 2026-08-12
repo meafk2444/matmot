@@ -31,7 +31,7 @@ d'emojis, flash...) à chaque clic.
 5. Après ~1 minute, ton site sera en ligne à l'adresse :
 
    ```
-   https://TON-PSEUDO.github.io/girafe-disco/
+   https://meafk2444.github.io/matmot/
    ```
 
 C'est tout — pas de serveur, pas de build, ça marche directement.
